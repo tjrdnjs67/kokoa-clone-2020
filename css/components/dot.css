@@ -1,0 +1,16 @@
+.dot {
+  background-color: #ff6229;
+  color: #ffeae3;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+}
+
+.header__dot {
+  position: absolute;
+  top: 40px;
+}
+
+.header__link {
+  position: relative;
+}

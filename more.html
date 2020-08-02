@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,35 +22,78 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+    <header class="screen-header header__link">
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+        <span>
+          <a href="settings.html"
+            ><i class="fas fa-cog fa-lg"></i>
+            <span class="header__dot dot"></span>
+          </a>
+        </span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.0-9/87437063_111858573741128_8669967931716665344_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=_Nooh6jIpNEAX-adv6B&_nc_ht=scontent-ssn1-1.xx&oh=06343b41b7dddb5cd6a9f7aa8fdf723b&oe=5F479D2A"
-            class="user-component__avatar"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Seokwon</h4>
             <h6 class="user-component__subtitle">
-              Please check My Kokoa Account Info
+              +1 787-493-4219
+              <span class="user-component__subicon">!</span>
             </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <span class="badge">1</span>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Kokoa Friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions__icon-text">Friends Gem</span>
+          </div>
         </div>
       </div>
     </main>
